@@ -11,8 +11,11 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/frappe_datatable/css/frappe_datatable.css"
-# app_include_js = "/assets/frappe_datatable/js/frappe_datatable.js"
+app_include_css = "/assets/frappe_datatable/css/datatable.css"
+app_include_js = [
+    "/assets/frappe_datatable/js/component.js",
+    "/assets/frappe_datatable/js/datatable.js",
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/frappe_datatable/css/frappe_datatable.css"

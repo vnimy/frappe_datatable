@@ -1,0 +1,46 @@
+.layout-main-section .report-wrapper {
+  padding: 0;
+}
+.datatable {
+  margin-left: 0;
+}
+.datatable .dt-row .frozen-columns {
+  display: flex;
+  position: sticky;
+  z-index: 10;
+  left: 0;
+  margin-right: -1px;
+  background-color: var(--dt-cell-bg);
+}
+.datatable .dt-row .no-frozen-columns {
+  display: flex;
+}
+.datatable .dt-row .no-frozen-columns > div {
+  display: flex;
+}
+
+.datatable .dt-row:last-child:not(.dt-row-filter) {
+  border-bottom: 0;
+}
+
+.datatable .dt-row:last-child .dt-cell {
+  border-bottom: 1px solid var(--dt-border-color);
+}
+
+.datatable .dt-header {
+  z-index: 12;
+  position: relative;
+}
+
+.datatable .dt-header .dt-row:last-child {
+  margin-bottom: -1px;
+}
+
+.datatable .dt-scrollable {
+  z-index: 11;
+}
+
+.datatable .dt-dropdown-container {
+  z-index: 100;
+  position: relative;
+}
